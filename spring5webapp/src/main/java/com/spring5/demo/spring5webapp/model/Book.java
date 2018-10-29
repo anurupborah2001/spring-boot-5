@@ -34,6 +34,7 @@ import lombok.ToString;
 @Table(name="BOOK")
 public class Book {
 	
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@EqualsAndHashCode.Include private Long id;
